@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+  html{
+    @apply !overflow-x-hidden scroll-smooth scroll-pt-7 
+  }
+  body{
+    @apply font-Inter 
+  }
+}
+@layer utilities {
+  .gradient-one {
+    background: linear-gradient(180deg, #00d2ff 0%, #059dbe 100%);
+  }
+  .gradient-two {
+    background: linear-gradient(155.83deg, #00d2ff -15.74%, #059dbe 151.39%);
+  }
+}
